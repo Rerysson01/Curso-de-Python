@@ -1,0 +1,12 @@
+# Crie um programa que peça itens da lista de compras até o usuário digitar "fim".
+
+lista_compras = []
+while True:
+    item = input('Insira um item na lista ou digite "fim" para finalizar o programa:').lower()
+    
+    if item == 'fim':
+        break
+    lista_compras.append(item)
+
+print('Lista de Compras:', lista_compras)
+print('Finalizando o programa')
